@@ -1,0 +1,71 @@
+/* Styles for fieldset */
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Styles for form box */
+.form-box {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Styles for field-group */
+.field-group {
+  margin-bottom: 20px;
+}
+
+/* Styles for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styles for inputs */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for buttons */
+.btn-group {
+  margin-top: 20px;
+}
+
+/* Styles for submit button */
+input[type="submit"],
+button[type="reset"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #0056b3;
+}

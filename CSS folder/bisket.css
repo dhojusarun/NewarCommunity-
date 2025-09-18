@@ -1,0 +1,32 @@
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    color: #d9534f;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    max-width: 900px;
+    margin: 0 auto 2rem auto;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: #555;
+}
+
+.bisketimage {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.bisketimage img {
+    width: 45%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
